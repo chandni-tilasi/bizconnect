@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    height: 500px;
+    text-align: center;
+}
+
+.container .left {
+    margin-top: 60px;
+    width: 400px;
+    height: 100px;
+}
+
+.container .left .main-heading {
+    font-size: 35px;
+}
+
+
+
+.container .right {
+    width: 650px;
+    height: 200px;
+}
+
+.container .left  .para{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.container .left  .para .bold{
+    font-weight: 650;
+    
+}
+
+

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.home .top-heading {
+    font-size: 36px;
+    font-weight: 480;
+}
+
+.home .top-heading span {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+article .bottom-heading {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 330;
+}
+
+.centerBtn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+/* -----------------------------------------------sections--------------------- */
+
+.home .sections {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 550;
+
+}
+
+.home .sections div {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sections div:hover {
+    background-color: #F0F3FF;
+    border-bottom: rgb(63, 63, 241) 4px solid;
+}
+
+.trusted h1 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 35px
+}
+
+
+.trusted-logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.trusted-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.badges {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.badges img {
+    height: 100px;
+    width: 140px;
+}
+
+.badges div {
+    height: 120px;
+    width: 100px;
+    margin-top: 25px;
+
+}
+
+.badges .middle-div {
+
+    position: relative;
+    margin-top: 0px;
+
+}
+
+.badges .middle {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+
+}
+
+
+.monday {
+    margin-top: 50px;
+}
+
+.roundlogo-container {
+    height: 2%;
+    border: 3px #c5bcbc solid;
+    border-top: none;
+    box-shadow: 2px 3px 6px #d0c9c9;
+    background-color: #F5F6F8;
+    display: flex;
+    justify-content: center;
+}
+
+.roundlogo-container div {
+    margin-top: 3%;
+}
+
+.roundlogo-container img {
+    border-radius: 150px;
+    height: 50px;
+    width: 62px;
+    margin-left: 5px;
+}
+
+.additional-info .logo-img {
+    height: 150px;
+    width: 160px;
+}
+
+.additional-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px #c5bcbc solid;
+    border-top: none;
+
+}
+
+.additional-info p {
+    margin-top: 15px;
+}

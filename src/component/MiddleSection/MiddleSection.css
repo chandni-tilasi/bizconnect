@@ -1,0 +1,41 @@
+.info{
+    /* border: 1px solid gray; */
+    height: 600px;
+    width: 500px;
+    padding: 50px ;
+    box-shadow: 3px 2px 6px gray;
+    }
+    
+    .info .heading1{
+        font-size: 17px;
+        font-weight: 300;
+        padding: 10px;
+        border-bottom: 1px solid rgb(204, 200, 200);
+    }
+    .additional-info1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 12px;
+    }
+    
+    .additional-info1 .sub-heading{
+        display: flex;
+    }
+    
+    .additional-info1 .sub-heading .heading{
+        font-size: 15px;
+        font-weight: 400;
+        
+    }
+    .additional-info1  .para{
+        font-weight: 300;
+    }
+    
+    .additional-info1 .container1{
+        margin-top: 50px;
+    
+    }
+    
+    .sub-heading .heading{
+        margin-left: 10px;
+    }
